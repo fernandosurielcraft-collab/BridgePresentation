@@ -1,0 +1,24 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="MIT"
+
+[[mods]]
+modId="bridgepresentation"
+version="1.0.0"
+displayName="Bridge Presentation"
+authors="Fernando"
+description='''3D annotations and hotbar-controlled presentation slides for Minecraft 1.20.1.'''
+
+[[dependencies.bridgepresentation]]
+modId="forge"
+mandatory=true
+versionRange="[47,)"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.bridgepresentation]]
+modId="minecraft"
+mandatory=true
+versionRange="[1.20.1,1.21)"
+ordering="NONE"
+side="BOTH"
